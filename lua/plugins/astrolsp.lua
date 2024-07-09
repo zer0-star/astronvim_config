@@ -42,6 +42,7 @@ return {
       "clangd",
       "rust_analyzer",
       "hls",
+      "nim_langserver"
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
