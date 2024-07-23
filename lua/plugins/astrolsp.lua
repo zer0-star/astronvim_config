@@ -42,7 +42,7 @@ return {
       "clangd",
       "rust_analyzer",
       "hls",
-      "nim_langserver"
+      "nim_langserver",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields
@@ -51,7 +51,7 @@ return {
       hls = {
         settings = {
           haskell = {
-            formattingProvider = 'floskell',
+            formattingProvider = "floskell",
           },
         },
       },
