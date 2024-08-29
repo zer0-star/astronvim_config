@@ -51,7 +51,7 @@ return {
       hls = {
         settings = {
           haskell = {
-            formattingProvider = "floskell",
+            formattingProvider = "fourmolu",
           },
         },
       },
