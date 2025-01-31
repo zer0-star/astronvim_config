@@ -38,4 +38,5 @@ return {
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.astrolsp-no-insert-inlay-hints" },
   { import = "astrocommunity.completion.copilot-lua-cmp" },
+  { import = "astrocommunity.pack.json" },
 }
