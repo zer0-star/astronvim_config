@@ -56,6 +56,13 @@ return {
           },
         },
       },
+      nixd = {
+        settings = {
+          formatting = {
+            command = { "nixfmt" },
+          },
+        },
+      },
     },
     -- customize how language servers are attached
     handlers = {
