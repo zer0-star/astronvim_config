@@ -7,7 +7,7 @@ return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
   -- { import = "astrocommunity.pack.cpp" },
-  { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.pack.python-ruff" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.lean" },
