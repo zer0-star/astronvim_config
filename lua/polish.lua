@@ -4,11 +4,7 @@
 
 if vim.g.vscode then vim.opt.cmdheight = 1 end
 
-vim.filetype.add {
-  filename = {
-    [".swcrc"] = "json",
-  },
-}
+vim.opt.exrc = true
 
 -- Set up custom filetypes
 -- vim.filetype.add {
