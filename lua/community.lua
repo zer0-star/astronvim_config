@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.pack.python.base" },
   { import = "astrocommunity.pack.python.basedpyright" },
   { import = "astrocommunity.pack.python.ruff" },
-  -- { import = "astrocommunity.pack.docker" },
+  { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.nix" },
   { import = "astrocommunity.pack.lean" },
   -- { import = "astrocommunity.pack.haskell" },
