@@ -43,8 +43,12 @@ return {
       "clangd",
       "rust_analyzer",
       "hls",
+      "haskell-language-server",
+      "haskell-debug-adapter",
       "nim_langserver",
       "ruff",
+      "tex-fmt",
+      "texlab",
     },
     -- customize language server configuration options passed to `lspconfig`
     ---@diagnostic disable: missing-fields

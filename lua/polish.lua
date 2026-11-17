@@ -5,16 +5,3 @@
 if vim.g.vscode then vim.opt.cmdheight = 1 end
 
 vim.opt.exrc = true
-
--- Set up custom filetypes
--- vim.filetype.add {
---   extension = {
---     foo = "fooscript",
---   },
---   filename = {
---     ["Foofile"] = "fooscript",
---   },
---   pattern = {
---     ["~/%.config/foo/.*"] = "fooscript",
---   },
--- }
